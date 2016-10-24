@@ -11,4 +11,6 @@ Download this project and start building !
 
 ## What is not included in this pack
 - To preprocess JADE and SCSS, you will need to setup grunt/gulp. For the beginner, we recommend [Prepros](https://prepros.io/).
-- To keep the file organized, .jade files in /jade is recommended to compile to root folder (require manual setup in Prepros) or /html (default in Prepros). .scss files in /scss is recommended to compiled to /css (default in Prepros). 
+- To keep the file organized
+  - .jade files in /jade is recommended to compile to root folder (require manual setup in Prepros) or /html (default in Prepros).
+  - .scss files in /scss is recommended to compiled to /css (default in Prepros). 
