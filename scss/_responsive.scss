@@ -1,0 +1,14 @@
+/* ----------------- Small Desktop (768 - 1024) ----------------- */
+@media only screen and (max-width: 1024px) {
+  @import 'responsive/max1024';
+}
+
+/* ------------ Extra Small (xs) Size (641 - 767) ------------ */
+@media only screen and (max-width: 767px) {
+    @import 'responsive/max767';
+}
+
+/* ---------- Super Extra Small (xs) Size (0 - 640) ---------- */
+@media only screen and (max-width: 640px) {
+    @import 'responsive/max640';
+}

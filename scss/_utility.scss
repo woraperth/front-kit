@@ -1,0 +1,50 @@
+/*------------------------------------*
+CLEARFIX
+*------------------------------------*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+/*------------------------------------*
+SCALE ANIMATION
+*------------------------------------*/
+.img-scale-frame {
+  overflow: hidden;
+  height: 215px;
+  margin-bottom: 15px;
+
+  div {
+    transform: scale(1, 1);
+    transition: 1s;
+  }
+
+  a:hover & div {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.img-scale-frame--450 {
+  @extend .img-scale-frame;
+  height: 450px;
+}
+
+
+/*------------------------------------*
+BORDER-BOTTOM
+*------------------------------------*/
+.style-border-bottom {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #929497;
+}
