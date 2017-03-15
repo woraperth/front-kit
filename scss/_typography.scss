@@ -1,4 +1,6 @@
-/* Colors */
+/*------------------------------------*
+COLORS
+*------------------------------------*/
 $colors: (
   blue: #00ADEE,
   violet: #920080,
@@ -8,53 +10,17 @@ $colors: (
   lemon: #CCD42A,
 );
 
-/* Bebas Font */
 
+/*------------------------------------*
+CUSTOM FONTS
+*------------------------------------*/
 @font-face {
     font-family: 'kalatexa';
     src: url('../fonts/kalatexatext_bold.woff2') format('woff2'),
          url('../fonts/kalatexatext_bold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
-
 }
-
-
-
-
-@font-face {
-    font-family: 'kalatexa';
-    src: url('../fonts/kalatexadisplay_regular.woff2') format('woff2'),
-         url('../fonts/kalatexadisplay_regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'kalatexa';
-    src: url('../fonts/kalatexadisplay_extrabold.woff2') format('woff2'),
-         url('../fonts/kalatexadisplay_extrabold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'proxima_nova';
-    src: url('../fonts/mark_simonson_-_proxima_nova_alt_black.woff2') format('woff2'),
-         url('../fonts/mark_simonson_-_proxima_nova_alt_black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 /* Special Font */
 
@@ -87,7 +53,12 @@ $colors: (
 }
 
 
-/* Font Icons */
+
+
+/*------------------------------------*
+FONT ICONS
+*------------------------------------*/
+
 @font-face {
   font-family: "Flaticon";
   src: url("../fonts/Flaticon.eot");
